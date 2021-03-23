@@ -1,0 +1,452 @@
+/* 900px*/
+@media only screen and (max-width: 900px) {
+    body {
+        max-width: 900px;
+    }
+
+    /*Alles van de navigatielijsten staan hier*/
+    #navilijst{
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 15px;
+        margin-top: -5%;
+        margin-left: 13%;
+
+    }
+
+    #navilijstactiviteiten {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 15px;
+        margin-top: -2.1%;
+        margin-left: 13%;
+    }
+    #navilijstmenu{
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 15px;
+        margin-top: -3.2%;
+        margin-left: 13%;
+    }
+    #navilijstform {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 15px;
+        margin-top: 3.9%;
+        margin-left: 13%;
+    }
+
+
+    li {
+        border: 3px solid #bbbbbb;
+
+
+    }
+
+    li a {
+        padding: 14px 50px;
+    }
+
+    #plaats {
+        height: 300px;
+        width: 370px;
+    }
+
+    /*Alles login knopen staan hier gepositioneerd*/
+    #knooplogin {
+        margin-top: -4%;
+        margin-left: 85%;
+        position: fixed;
+    }
+
+    #knooploginactiviteit {
+        margin-top: -1.1%;
+        margin-left: 85.2%;
+        position: fixed;
+    }
+    #knooploginmenu{
+        margin-top: -2.1%;
+        margin-left: 36%;
+        position: fixed;
+    }
+    #knooploginform{
+        margin-top: 5%;
+        margin-left: 84.2%;
+    }
+
+    #bodyhome h2 {
+        padding-top: 5%;
+    }
+
+    footer {
+        text-align: center;
+        align-content: center;
+    }
+
+    /*Alles van het loginformulier staat hier*/
+    .login {
+
+        top: -10%;
+    }
+    /*Alles van acitivteiten pagina die moet veranderen*/
+#activiteitbody{
+    font-size: 18px;
+}
+    #activiteitbody h1 {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+    #activiteit1{
+        height: 280px;
+        width: 400px;
+        margin-left: 1.9%;
+        padding-right: 0%;
+    }
+    #activiteit2{
+        height: 280px;
+        width: 400px;
+        margin-left: 3.8%
+    }
+    #p1{
+        margin-left: 8.8%;
+        font-size: 22px;
+        padding-right: 0;
+    }
+    #p2{
+        margin-left: 20%;
+        font-size: 22px;
+    }
+    /*Aanpassingen pagina menu*/
+    #bodygerechten{
+        background-size: auto;
+        background-position-x: 35%;
+        background-position-y: 80%;
+        font-size: 18px;
+    }
+    #rechts{
+        padding-right: 2%;
+        font-size: 18px;
+    }
+    #hrgerecht{
+        margin-left: 78%;
+    }
+    #links{
+        font-size: 18px;
+        margin-left: -8%;
+    }
+    #hrlinks{
+        margin-left: 2%;
+    }
+
+
+
+    /*Aanpassingen pagina formulier*/
+    #hoofdform{
+        font-size:20px;
+        color: black;
+        margin-top: -5%;
+        max-width: 48%;
+        margin-left: 26%;
+    }
+    #bodyformulier{
+        background-image: url("../images/gerechten4.jpg");
+        font-size: 18px;
+    }
+    /*Aanpassingen pagina home*/
+    #bodyhome{
+        font-size: 18px;
+    }
+/*Aanpassingen formulier pagina*/
+    #bodyformulier h1{
+        padding-top: 12%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 600px*/
+@media only screen and (max-width: 600px) {
+    body {
+        width: 98%;
+        max-width: 600px;
+    }
+
+    /*alles van Knopen om in te loggen staat hier*/
+    #knooplogin {
+        margin-top: -5%;
+        margin-left: 85.5%;
+    }
+
+    #knooploginactiviteit {
+        margin-top: -2.5%;
+        margin-left: 85.5%;
+    }
+
+    #knooploginform {
+        margin-top: 3.5%;
+        margin-left: 85%;
+    }
+
+    /*Alles van navigatielijsten staan hier*/
+    #navilijst {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 10px;
+        margin-left: -1.5%;
+        margin-top: -5%;
+
+
+    }
+
+    #navilijstactiviteiten {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 10px;
+        margin-top: -2.5%;
+        margin-left: -1.5%;
+    }
+
+    #navilijstform {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 10px;
+        margin-top:3.5%;
+        margin-left: -1.5%;
+    }
+
+    #navilijstmenu {
+        background-color: rgba(255, 245, 253, 0);
+        font-size: 10px;
+        margin-top: -4.2%;
+        margin-left: -1.5%;
+    }
+
+    li {
+        border: 1px solid #bbbbbb;
+
+    }
+
+    li a {
+        background-color: lightgray;
+        padding: 14px 45px;
+
+    }
+
+    #deadline {
+        margin-left: 30%;
+    }
+
+    #plaats {
+        padding-left: 12%;
+    }
+
+    /*Alles van acitivteiten pagina die moet veranderen*/
+    #activiteitbody h1 {
+        padding-top: 10%;
+        font-size: 22px;
+    }
+
+    #activiteit1 {
+        height: 180px;
+        width: 250px;
+        margin-left: 2%;
+        padding-right: 3%;
+    }
+
+    #activiteit2 {
+        height: 180px;
+        width: 250px;
+
+    }
+
+    #p1 {
+        padding-left: -2%;
+        font-size: 16px;
+        padding-right: 0;
+        margin-left: 2%;
+    }
+
+    #p2 {
+        padding-left: 0%;
+        font-size: 16px;
+    }
+
+    /*Alles van menu pagina die moet veranderen*/
+    #bodygerechten {
+        font-size: 12px;
+    }
+
+
+    #knooploginmenu {
+        margin-top: -4.8%;
+        margin-left: 36.5%;
+    }
+
+    #rechts {
+        padding-right: 2%;
+        font-size: 12px;
+    }
+
+    #hrgerecht {
+        margin-left: 78%;
+    }
+
+    #links {
+        font-size: 12px;
+        margin-left: -8%;
+    }
+
+    #hrlinks {
+        margin-left: 2%;
+    }
+
+    #cancelmenu {
+        font-size: 11px;
+
+        margin-left: 0;
+        margin-right: 0%;
+        text-align: center;
+    }
+
+    #bedrag {
+
+        width: 80%;
+
+    }
+    /*Formulier pagina anapassen*/
+    #bodyformulier h1{
+        padding-top: 15%;
+    }
+}
+/*-------------------------------------------------------------------------------*/
+/* 480px*/
+@media only screen and (max-width: 480px) {
+    body {
+        max-width: 480px;
+    }
+
+    /*Alles van login knopen staan hier*/
+    #knooplogin {
+        margin-top: -5%;
+        margin-left: 83%;
+        border-radius: 20%;
+    }
+
+    #knooploginactiviteit {
+        margin-top: -3.1%;
+        margin-left: 83%;
+    }
+
+    #knooploginform {
+        margin-top: 3%;
+        margin-left: 81.7%;
+    }
+    #knooploginmenu{
+        margin-top: -5.8%;
+        margin-left: 34.2%;
+    }
+
+    /*Alles van navigatie */
+
+    #navilijst {
+
+        font-size: 10px;
+        margin-top: -5%;
+        margin-left: -1%;
+
+    }
+
+    #navilijstactiviteiten {
+
+        font-size: 10px;
+        margin-top: -3.2%;
+        margin-left: -1%;
+    }
+
+    #navilijstform {
+        font-size: 10px;
+        margin-top: 3.2%;
+        margin-left: -1%;
+    }
+    #navilijstmenu{
+        font-size: 10px;
+        margin-top: -5.6%;
+        margin-left: -1%;
+    }
+
+    li {
+        border: 1px solid #bbbbbb;
+
+    }
+
+    li a {
+        background-color: whitesmoke;
+        padding: 14px 25px;
+    }
+
+    /*Alles van home pagina die moet veranderen*/
+    #deadline {
+        margin-left: 25%;
+    }
+
+    #plaats {
+        margin-left: 8%;
+    }
+
+    /*Alles van acitivteiten pagina die moet veranderen*/
+    #activiteitbody h1 {
+        padding-top: 10%;
+        font-size: 22px;
+    }
+
+    #activiteit1 {
+        height: 150px;
+        width: 180px;
+        margin-left: 5%;
+        padding-right: 7%;
+    }
+
+    #activiteit2 {
+        height: 150px;
+        width: 180px;
+    }
+
+    #p1 {
+        margin-left: 5%;
+        font-size: 14px;
+        padding-right: 12%;
+    }
+
+    #p2 {
+        margin-left: 3%;
+        font-size: 14px;
+    }
+
+    /*Formulier aanpassen Menu gedeelte*/
+    #cancelmenu {
+        font-size: 11px;
+        margin-left: 15%;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    .vergeten {
+        padding-right: 15%;
+    }
+
+    #onderblok {
+        height: 90px;
+    }
+
+    /*Formulier aanpassen Home gedeelte*/
+    #cancelhome {
+        font-size: 11px;
+        margin-left: 25%;
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    #onderblokhome {
+        height: 60px;
+    }
+    #plaats{
+        height: 280px;
+        width: 250px;
+    }
+/*Alles van formulier pagina aanpassen*/
+    #bodyformulier h1{
+        padding-top: 15%;
+    }
+}

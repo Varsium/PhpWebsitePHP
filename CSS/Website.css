@@ -1,0 +1,382 @@
+html {
+    font-family: Calibri; /*Dit gebruik ik om een mooie font te hebben*/
+}
+
+/*Alles vanaf hier is voor het menu*/
+/*text allignen van menu voor soep en voorgerecht*/
+#bodygerechten h1 {
+    padding-top: 5%; /*heb padding gebruikt omdat je met margin ook je nav naar beneden haalt*/
+}
+
+#rechts {
+    text-align: right; /*Dit om mijn text rechts te zetten*/
+    padding-right: 10%;
+}
+
+#rechts h2 {
+    text-align: right;
+    padding-right: 0;
+}
+
+#rechts hr { /*Hr aangepast naar text*/
+    margin-right: 0;
+    width: 15%;
+}
+
+#hrgerecht {
+    margin-left: 70%;
+    width: 20%;
+}
+
+/*Text allignen van menu voor hoofdgerechten*/
+#links {
+    text-align: left;
+    padding-left: 10%;
+}
+
+#links h2 {
+    text-align: left;
+    padding-left: 0%;
+}
+
+#links hr {
+    margin-left: 0%;
+    width: 42%;
+}
+
+#hrlinks {
+    margin-left: 10%;
+    width: 52%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+#bodygerechten { /*Hier body achtergrond ingesteld*/
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-image: url("../images/achtergrond.jpg");
+    background-size: cover;
+
+}
+
+#bodygerechten h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+/*Einde menu pagina*/
+
+/* Vanaf hier beginnen we met de home pagina */
+
+
+#bodyhome {
+    background-image: url("../images/achtergrond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#bodyhome h2 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 3px white; /*Dit gebruik ik om de text beter te laten uitkomen*/
+}
+
+#bodyhome p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#bodyhome h3 { /*Ipv iedere "h" een id te geven gebruik ik het zo*/
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px white;
+}
+
+#plaats { /*De foto van het restaurant.*/
+    margin-left: 25%;
+}
+
+#deadline { /*Foto van deadline*/
+    margin-left: 42%;
+}
+
+/*Einde Home menu*/
+
+/*Alles van Navigatie en footers + login*/
+
+#navilijst {
+    list-style-type: none; /*Geen onderlijning*/
+    overflow: hidden; /*scrollbar blijft weg hierdoor*/
+    background-color: #808080;
+    opacity: 0.9;
+    position: fixed; /*Blijft staaan bij scrollen*/
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: -5%;
+
+}
+
+#navilijstmenu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #808080;
+    opacity: 0.9;
+    position: fixed;
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: -1.8%;
+}
+
+#navilijstactiviteiten {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #808080;
+    opacity: 0.9;
+    font-size: 20px;
+    padding-left: 0;
+    width: fit-content;
+
+}
+
+
+li {
+    float: left;
+    border: 3px solid #bbbbbb;
+
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 141px; /*Deze bepalen de hoogte en lengte van mijn "knopen*/
+    text-decoration: none;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border-radius: 15%; /*afrondingen maken van de knopen*/
+    background-color: bisque;
+
+}
+
+li a:hover { /*Bij het hoveren wil ik verandering zien*/
+    background-color: #111;
+    color: gold;
+}
+
+footer { /*1malig gebruikt voor bedrijflogo*/
+    margin-left: 0;
+    alignment: left;
+    text-align: left;
+}
+
+/* **********Login formulier********/
+/*knoop correct plaatsen*/
+#knooplogin {
+    margin-top: -4%;
+    margin-left: 94.5%;
+    border-radius: 20%;
+    position: fixed;
+}
+
+#knooploginmenu {
+    border-radius: 20%;
+    margin-left: 5%;
+    margin-top: -0.8%;
+}
+
+#knooploginactiviteit {
+    margin-left: 5%;
+    width: 10%;
+    background-color: grey;
+    margin-top: -3.5%;
+    float: right;
+}
+
+
+/* opmaak invulvelden */
+#tekst, #wachtwoord {
+    width: 93%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+}
+
+
+/* mijn loginknop vormen van mijn formulier*/
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 99%;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: crimson;
+}
+
+#Login {
+    font-size: 16px;
+}
+
+/*bij menu stond cancel knop op andere positie, deze correct gezet*/
+.cancelbtnmenu {
+    width: auto;
+    background-color: crimson;
+    margin-left: 0%;
+}
+
+#checkmenu {
+    float: left;
+    text-align: left;
+}
+
+#cancelmenu {
+    margin-left: -67%;
+}
+
+.fotobox {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+img.fotoinlog {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.invulbox {
+    padding: 5px;
+    background-color: beige;
+    height: 70%;
+}
+
+span.vergeten {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.login {
+    display: none; /*Hier mee zorg ik dat mijn formulier niet zichtbaar is*/
+    position: fixed;
+    left: 0;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* als je moet scrollen kun je hiermee scrollen */
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* inhoud van me login form */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* zorgt dat de 'pop-up' mooi in het midden staat*/
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* sluitknop */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+
+}
+
+
+/*Alles van Activiteitenpagina*/
+#activiteitbody {
+    background-image: url("../images/achtergrond.jpg");
+    background-size: cover;
+    background-position-x: 57%; /*dit heb ik gebruikt om mijn achtergrond op te schuiven*/
+}
+
+#activiteitbody h1 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#activiteit1 {
+    margin-left: 10%;
+    padding-right: 22%;
+
+}
+
+#p1 {
+    text-shadow: 3px 3px 3px white;
+    font-size: 25px;
+    padding-right: 24.5%;
+    margin-left: 14%;
+}
+
+#p2 {
+    text-shadow: 3px 3px 3px white;
+    font-size: 25px;
+    padding-right: 5%;
+    margin-left: 7.5%;
+
+}
+
+table {
+    border-collapse: collapse; /*Dit gebruik ik om geen tussenlijntjes te hebben*/
+}
+
+tr {
+    text-align: center;
+    padding-left: 0;
+
+}
+
+td {
+    border: 3px solid white;
+
+}
+
+#td2 {
+    width: 50%;
+    vertical-align: top; /*Dit gebruik ik om mijn text op dezelfde hoogte te laten beginnen*/
+    padding-top: -2%; /*Was nog geen 100% zelfde hoogte*/
+}
+
+#welkom{
+    padding-top: 45px;
+}
+#gegevens{
+    width: fit-content;
+}

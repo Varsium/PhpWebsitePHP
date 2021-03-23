@@ -1,0 +1,77 @@
+/* Alles van Formulierpagina en opmaak*/
+#bodyformulier {
+    background-image: url("../images/nieuwjaarsreceptie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#formulier {
+    background-color: rgba(235, 235, 235, 0.69);
+    width: 80%;
+    margin: auto;
+}
+
+.radiopartner:checked ~ #partner { /* met het Tidle tekentje verbind ik de 2 ids omdat ze dezelfde "parent" (in dit geval het fieldset) bevatten*/
+    display: block;
+}
+
+.radiovis:checked ~ #Visselect {
+    display: block;
+}
+
+.radiovlees:checked ~ #Vleesselect {
+    display: block;
+}
+
+#partner {
+    display: none;
+}
+
+#Visselect {
+    display: none;
+}
+
+#Vleesselect {
+    display: none;
+}
+
+.radiovis2:checked ~ #Visselect2 {
+    display: block;
+}
+
+.radiovlees2:checked ~ #Vleesselect2 {
+    display: block;
+}
+
+#Visselect2 {
+    display: none;
+}
+
+#Vleesselect2 {
+    display: none;
+}
+
+#soepje {
+    display: none;
+}
+
+#soepje2 {
+    display: none;
+}
+
+.gangen4:checked ~ #soepje {
+    display: block;
+}
+
+.gangen4P:checked ~ #soepje2 {
+    display: block;
+}
+
+#regi {
+    padding-top: 2%;
+}
+
+#welkomingelogd {
+    padding-left: 15%;
+}
